@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>CDIO</title>
+    <link href="https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"  type="text/css" media="screen" runat="server"/>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="bar">
+                <div class="logo-item">
+                    <div class="nav-image">
+                        <img src="./img/anh.png">
+                    </div>
+                    <div class="logo-name">DTU docu</div>
+                </div>
+                <div class="search-container">
+                    <input type="text" name="search" placeholder="Tìm kiếm tài liệu..." class="search-input">
+                    <a href="#" class="search-btn">
+                            <i class="fas fa-search"></i>      
+                    </a>
+                </div>
+                <div class="login"></div>
+                <div class="btn">
+                    <button class="Upload">Upload</button>
+                    <button class="Signin">Sign in</button>
+                </div>
+                <div class="dropdown">
+                    <a class="dropdown-toggle" href="#" id="Dropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <i class="flag-united-kingdom flag m-0"></i>
+                    </a>
+                
+                    <ul class="dropdown-menu" aria-labelledby="Dropdown">
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="flag-united-kingdom flag"></i>English <i class="fa fa-check text-success ms-2"></i></a>
+                        </li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="flag-poland flag"></i>Polski</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="flag-china flag"></i>中文</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="flag-japan flag"></i>日本語</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="flag-germany flag"></i>Deutsch</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="flag-france flag"></i>Français</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="flag-spain flag"></i>Español</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="flag-russia flag"></i>Русский</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="flag-portugal flag"></i>Português</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form-container">
+                <div class="sidebar">
+                   
+                    <div class="user">
+                         <div class="user-img">
+                            <img src="./img/user.jpg">
+                        </div>
+                        <div class="user-info">
+                             <div>Name User</div><span class="info">+ Add information</span>
+                        </div>
+                    </div>
+                    <div class="ana">
+                        <div class="follower">0<span>Followers</span></div>
+                        <div class="upload">0<span>Upload</span></div>
+                        <div class="following">0<span>Following</span></div>
+                    </div>
+                    <div class="func">
+                        <a href="#"><i class="fa-solid fas fa-home"></i> Home</a>
+                        <a href="#"><i class="fa-solid fa-book"></i> Library</a>
+                        <a href="#"><i class="fa-solid fa-file"></i> Document</a>
+                    </div>
+                    <div class="doc">
+                        My Document
+                        <a href="#"><i class="fa-solid fa-book"></i> Book</a>
+                        <a href="#"><i class="fa-regular fa-file"></i> Courses</a>
+                        <a href="#"><i class="fa-solid fa-print"></i> Document</a>
+                    </div>
+                </div>
+                <div class="bodypage">
+                    <div class="khung">
+                        <img src="./img/truong-quoc-te-nhat-ban-698868.jpg">
+                    </div>
+                    <div class="analysis">
+                        <div>
+                            Tổng số sinh viên: <span>5000</span>
+                        </div>
+                        <div>
+                            Tổng số giảng viên: <span>300</span>
+                        </div>
+                        <div>
+                            Tổng số sách trong thư viện: <span>1.200</span>
+                        </div>
+                        <div>
+                            Tổng số khóa học: <span>500</span>
+                        </div>
+                        <div>
+                            Tổng số tài liệu: <span>30.000</span>
+                        </div>
+                        <div>
+                            Tổng số môn học: <span>365</span>
+                        </div>
+                        <div>________________</div>
+                        <div>
+                            Tổng số tài liệu đã đọc: <span>...</span>
+                        </div>
+                        <div>
+                            Tổng số sách đã thuê: <span>...</span>
+                        </div>
+                    </div>
+                    <div class="document">Popular documents</div>
+                    <div class="docs">
+                        <a href="" class="one-doc">
+                            <div class="hinh">
+                                <img src="./img/OIP.jpg">
+                            </div>
+                            <div class="tendoc">Tên tài liệu</div>
+                            <div class="mondoc">Tên môn</div>
+                        </a>
+                        <a href="" class="one-doc">
+                            <div class="hinh">
+                                <img src="./img/OIP.jpg">
+                            </div>
+                            <div class="tendoc">Tên tài liệu</div>
+                            <div class="mondoc">Tên môn</div>
+                        </a>
+                        <a href="" class="one-doc">
+                            <div class="hinh">
+                                <img src="./img/OIP.jpg">
+                            </div>
+                            <div class="tendoc">Tên tài liệu</div>
+                            <div class="mondoc">Tên môn</div>
+                        </a>
+                        <a href="" class="one-doc">
+                            <div class="hinh">
+                                <img src="./img/OIP.jpg">
+                            </div>
+                            <div class="tendoc">Tên tài liệu</div>
+                            <div class="mondoc">Tên môn</div>
+                        </a>
+                        <a href="" class="one-doc">
+                            <div class="hinh">
+                                <img src="./img/OIP.jpg">
+                            </div>
+                            <div class="tendoc">Tên tài liệu</div>
+                            <div class="mondoc">Tên môn</div>
+                        </a>
+                        <a href="" class="one-doc">
+                            <div class="hinh">
+                                <img src="./img/OIP.jpg">
+                            </div>
+                            <div class="tendoc">Tên tài liệu</div>
+                            <div class="mondoc">Tên môn</div>
+                        </a>
+                        <a href="" class="one-doc">
+                            <div class="hinh">
+                                <img src="./img/OIP.jpg">
+                            </div>
+                            <div class="tendoc">Tên tài liệu</div>
+                            <div class="mondoc">Tên môn</div>
+                        </a>
+                    </div>
+                    <div class="document2">Recent Documents</div>
+                    <div class="docs">
+                        <a href="" class="one-doc">
+                            <div class="hinh">
+                                <img src="./img/OIP.jpg">
+                            </div>
+                            <div class="tendoc">Tên tài liệu</div>
+                            <div class="mondoc">Tên môn</div>
+                        </a>
+                        <a href="" class="one-doc">
+                            <div class="hinh">
+                                <img src="./img/OIP.jpg">
+                            </div>
+                            <div class="tendoc">Tên tài liệu</div>
+                            <div class="mondoc">Tên môn</div>
+                        </a>
+                        <a href="" class="one-doc">
+                            <div class="hinh">
+                                <img src="./img/OIP.jpg">
+                            </div>
+                            <div class="tendoc">Tên tài liệu</div>
+                            <div class="mondoc">Tên môn</div>
+                        </a>
+                        <a href="" class="one-doc">
+                            <div class="hinh">
+                                <img src="./img/OIP.jpg">
+                            </div>
+                            <div class="tendoc">Tên tài liệu</div>
+                            <div class="mondoc">Tên môn</div>
+                        </a>
+                        <a href="" class="one-doc">
+                            <div class="hinh">
+                                <img src="./img/OIP.jpg">
+                            </div>
+                            <div class="tendoc">Tên tài liệu</div>
+                            <div class="mondoc">Tên môn</div>
+                        </a>
+                        <a href="" class="one-doc">
+                            <div class="hinh">
+                                <img src="./img/OIP.jpg">
+                            </div>
+                            <div class="tendoc">Tên tài liệu</div>
+                            <div class="mondoc">Tên môn</div>
+                        </a>
+                        <a href="" class="one-doc">
+                            <div class="hinh">
+                                <img src="./img/OIP.jpg">
+                            </div>
+                            <div class="tendoc">Tên tài liệu</div>
+                            <div class="mondoc">Tên môn</div>
+                        </a>
+                    </div>
+                    <div class="course">Courses</div>
+                    <div class="arrs">
+                        <div class="arr left"><div></div></div>
+                        <div class="arr right"><div></div></div>
+                    </div>
+                    <div class="courses">
+                        <div class="courses-detail">
+                            <div class="tenmon">Anh văn chuyên ngành 1</div>
+                            <div class="somon">100 tệp</div>
+                        </div>
+                        <div class="courses-detail">
+                            <div class="tenmon">Anh văn chuyên ngành 1</div>
+                            <div class="somon">100 tệp</div>
+                        </div>
+                        <div class="courses-detail">
+                            <div class="tenmon">Anh văn chuyên ngành 1</div>
+                            <div class="somon">100 tệp</div>
+                        </div>
+                        <div class="courses-detail">
+                            <div class="tenmon">Anh văn chuyên ngành 1</div>
+                            <div class="somon">100 tệp</div>
+                        </div>
+                        <div class="courses-detail">
+                            <div class="tenmon">Anh văn chuyên ngành 1</div>
+                            <div class="somon">100 tệp</div>
+                        </div>
+                        <div class="courses-detail">
+                            <div class="tenmon">Anh văn chuyên ngành 1</div>
+                            <div class="somon">100 tệp</div>
+                        </div>
+                        <div class="courses-detail">
+                            <div class="tenmon">Anh văn chuyên ngành 1</div>
+                            <div class="somon">100 tệp</div>
+                        </div>
+                        <div class="courses-detail">
+                            <div class="tenmon">Anh văn chuyên ngành 1</div>
+                            <div class="somon">100 tệp</div>
+                        </div>
+                        <div class="courses-detail">
+                            <div class="tenmon">Anh văn chuyên ngành 1</div>
+                            <div class="somon">100 tệp</div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </form>
+</body>
+</html>
